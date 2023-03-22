@@ -92,4 +92,4 @@ There is anomalous behavior of not getting smooth output lines.
 ![img8](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/08.png)
 
 ## Sample output returned from endpoint Snapshot
-![img9](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/09.png)
+![img9](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/09v2.png)
