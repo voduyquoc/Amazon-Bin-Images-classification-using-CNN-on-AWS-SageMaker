@@ -24,7 +24,7 @@ This project can be performed in any of the three softwares: **AWS Sagemaker Stu
 ## Access
 Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
 
-![img1]
+![img1](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/01.png)
 
 ## Overview of Project Steps
 
