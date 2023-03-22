@@ -56,20 +56,20 @@ The jupyter notebook "sagemaker.ipynb" walks through implementation of Image Cla
   - Weight decay - default(x) is 0.01 , so we have selected 0.1x to 10x range for the weight decay
 
 ### HyperParameter Tuning Job
-![img2]
+![img2](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/02.png)
 
 ### Multiple training jobs triggered by the HyperParameter Tuning Job
-![img3]
+![img3](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/03.png)
 
 ### Best hyperparameter Training Job
-![img4]
+![img4](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/04.png)
 
 ### Best hyperparameter Training Job Logs
-![img5]
+![img5](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/05.png)
 
 ## Debugging and Profiling
 We had set the Debugger hook to record and keep track of the Loss Criterion metrics of the process in training and testing phases. The Plot of the Cross entropy loss is shown below:
-![img6]
+![img6](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/06.png)
 
 There is anomalous behavior of not getting smooth output lines.
 
@@ -78,7 +78,7 @@ There is anomalous behavior of not getting smooth output lines.
   - If I had more AWS credits, then would have changed the fc layers used in the model. Firstly would try by adding in one more fc layer on top of the existing two layers and check the results, and then if the results didn't improve much then would try by removing all the fc layers and keeping only one fc layer in the model and then rerun the tuning and training jobs and check the outputs
 
 ## Endpoint Metrics
-![img7]
+![img7](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/07.png)
 
 ## Model Deployment
 - Model was deployed to a "ml.t2.medium" instance type and we used the "endpoint_inference.py" script to setup and deploy our working endpoint.
@@ -89,7 +89,7 @@ There is anomalous behavior of not getting smooth output lines.
   - Secondly using the boto3 client
 
 ## Deployed Active Endpoint Snapshot
-![img8]
+![img8](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/08.png)
 
 ## Sample output returned from endpoint Snapshot
-![img9]
+![img9](https://github.com/voduyquoc/Amazon-Bin-Images-classification-using-CNN-on-AWS-SageMaker/blob/main/Snapshots/09.png)
